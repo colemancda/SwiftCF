@@ -33,7 +33,7 @@ class StyledDateFormatterTests: XCTestCase {
         
         let foundationString = foundationFormatter.stringFromDate(NSDate(timeIntervalSinceReferenceDate: date.timeIntervalSinceReferenceDate))
         
-        let formatter = StyledDateFormatter(dateStyle: .FullStyle, timeStyle: .FullStyle)
+        let formatter = SwiftCF.StyledDateFormatter(dateStyle: DateFormatterStyle.FullStyle, timeStyle: DateFormatterStyle.FullStyle)
         
         let stringValue = formatter.stringFromValue(date)
         
@@ -42,7 +42,7 @@ class StyledDateFormatterTests: XCTestCase {
     
     func testMutateThreadSafety() {
         
-        var dateFormatter = StyledDateFormatter(dateStyle: .FullStyle, timeStyle: .MediumStyle)
+        var dateFormatter = SwiftCF.StyledDateFormatter(dateStyle: DateFormatterStyle.FullStyle, timeStyle: .MediumStyle)
         
         let expectation = expectationWithDescription("Operation Finished")
         
@@ -59,7 +59,7 @@ class StyledDateFormatterTests: XCTestCase {
             operationQueue.addOperationWithBlock({ () -> Void in
                 
                 // mutate
-                let style: DateFormatterStyle = flag ? .FullStyle : .ShortStyle
+                let style: SwiftCF.DateFormatterStyle = flag ? .FullStyle : .ShortStyle
                 flag = !flag
                 
                 dateFormatter.dateStyle = style
@@ -81,7 +81,7 @@ class StyledDateFormatterTests: XCTestCase {
     
     func testMethodThreadSafety() {
         
-        let dateFormatter = StyledDateFormatter(dateStyle: .FullStyle, timeStyle: .MediumStyle)
+        let dateFormatter = SwiftCF.StyledDateFormatter(dateStyle: .FullStyle, timeStyle: .MediumStyle)
         
         let expectation = expectationWithDescription("Operation Finished")
         

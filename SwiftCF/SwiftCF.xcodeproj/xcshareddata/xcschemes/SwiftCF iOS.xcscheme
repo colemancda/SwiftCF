@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6E94F03A1BB8B17A00C4BE24"
-               BuildableName = "SwiftCF.framework"
-               BlueprintName = "SwiftCF"
+               BlueprintIdentifier = "6E94F0701BB8DB9E00C4BE24"
+               BuildableName = "SwiftCF iOS.framework"
+               BlueprintName = "SwiftCF iOS"
                ReferencedContainer = "container:SwiftCF.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6E94F0441BB8B17A00C4BE24"
-               BuildableName = "SwiftCFTests.xctest"
-               BlueprintName = "SwiftCFTests"
-               ReferencedContainer = "container:SwiftCF.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6E94F03A1BB8B17A00C4BE24"
-            BuildableName = "SwiftCF.framework"
-            BlueprintName = "SwiftCF"
-            ReferencedContainer = "container:SwiftCF.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6E94F03A1BB8B17A00C4BE24"
-            BuildableName = "SwiftCF.framework"
-            BlueprintName = "SwiftCF"
+            BlueprintIdentifier = "6E94F0701BB8DB9E00C4BE24"
+            BuildableName = "SwiftCF iOS.framework"
+            BlueprintName = "SwiftCF iOS"
             ReferencedContainer = "container:SwiftCF.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6E94F03A1BB8B17A00C4BE24"
-            BuildableName = "SwiftCF.framework"
-            BlueprintName = "SwiftCF"
+            BlueprintIdentifier = "6E94F0701BB8DB9E00C4BE24"
+            BuildableName = "SwiftCF iOS.framework"
+            BlueprintName = "SwiftCF iOS"
             ReferencedContainer = "container:SwiftCF.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
