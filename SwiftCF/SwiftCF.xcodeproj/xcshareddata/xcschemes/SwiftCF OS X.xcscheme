@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6E94F03A1BB8B17A00C4BE24"
-               BuildableName = "SwiftCF OS X.framework"
+               BuildableName = "SwiftCF.framework"
                BlueprintName = "SwiftCF OS X"
                ReferencedContainer = "container:SwiftCF.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E94F03A1BB8B17A00C4BE24"
-            BuildableName = "SwiftCF OS X.framework"
+            BuildableName = "SwiftCF.framework"
             BlueprintName = "SwiftCF OS X"
             ReferencedContainer = "container:SwiftCF.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E94F03A1BB8B17A00C4BE24"
-            BuildableName = "SwiftCF OS X.framework"
+            BuildableName = "SwiftCF.framework"
             BlueprintName = "SwiftCF OS X"
             ReferencedContainer = "container:SwiftCF.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E94F03A1BB8B17A00C4BE24"
-            BuildableName = "SwiftCF OS X.framework"
+            BuildableName = "SwiftCF.framework"
             BlueprintName = "SwiftCF OS X"
             ReferencedContainer = "container:SwiftCF.xcodeproj">
          </BuildableReference>

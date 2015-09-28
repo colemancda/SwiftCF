@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6E94F0821BB8DBA100C4BE24"
-               BuildableName = "SwiftCF WatchOS.framework"
+               BuildableName = "SwiftCF.framework"
                BlueprintName = "SwiftCF WatchOS"
                ReferencedContainer = "container:SwiftCF.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E94F0821BB8DBA100C4BE24"
-            BuildableName = "SwiftCF WatchOS.framework"
+            BuildableName = "SwiftCF.framework"
             BlueprintName = "SwiftCF WatchOS"
             ReferencedContainer = "container:SwiftCF.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E94F0821BB8DBA100C4BE24"
-            BuildableName = "SwiftCF WatchOS.framework"
+            BuildableName = "SwiftCF.framework"
             BlueprintName = "SwiftCF WatchOS"
             ReferencedContainer = "container:SwiftCF.xcodeproj">
          </BuildableReference>
